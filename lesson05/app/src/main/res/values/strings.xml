@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lesson05</string>
+    <string name="numOne">numOne</string>
+    <string name="first_number">First number</string>
+    <string name="second_number">Second number</string>
+    <string name="add">Add</string>
+</resources>
