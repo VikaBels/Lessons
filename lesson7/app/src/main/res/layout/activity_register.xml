@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textRegister"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/textRegister"
+                android:textSize="40sp"
+                android:textColor="#ff0000"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/textEditLogin"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/login"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/textEditPassword"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/password"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/textEditPasswordRepeat"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/passwordRepeat"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/textEditName"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/name"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/textEditSurname"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/surname"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <RadioButton
+                    android:id="@+id/radioWomen"
+                    android:layout_width="250dp"
+                    android:layout_height="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:hint="@string/woman" />
+
+                <RadioButton
+                    android:id="@+id/radioMan"
+                    android:layout_width="250dp"
+                    android:layout_height="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:hint="@string/man" />
+
+                <RadioButton
+                    android:id="@+id/radioDontKnow"
+                    android:layout_width="250dp"
+                    android:layout_height="20dp"
+                    android:hint="@string/dontKnow"/>
+            </RadioGroup>
+
+
+            <EditText
+                android:id="@+id/textEditSomeInfo"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/someInfo"
+                android:textSize="15sp"
+                android:gravity="left"/>
+
+            <RadioButton
+                android:id="@+id/radioEg"
+                android:layout_width="250dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/eg" />
+
+            <Button
+                android:id="@+id/btnRegisterTwo"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="14dp"
+                android:text="@string/btnRegister"
+                android:textSize="15sp"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:text="@string/btnBack"
+                android:textSize="15sp"
+                android:layout_gravity="center"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
