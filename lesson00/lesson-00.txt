@@ -1,0 +1,23 @@
+2022-05-16 16:08:40.006 2485-2485/? I/Zygote: seccomp disabled by setenforce 0
+2022-05-16 16:08:40.007 2485-2485/? I/e.myapplicatio: Late-enabling -Xcheck:jni
+2022-05-16 16:08:40.025 2485-2485/? E/e.myapplicatio: Unknown bits set in runtime_flags: 0x8000
+2022-05-16 16:08:40.026 2485-2485/? W/e.myapplicatio: Unexpected CPU variant for X86 using defaults: x86
+2022-05-16 16:08:40.960 2485-2520/com.example.myapplication D/libEGL: Emulator has host GPU support, qemu.gles is set to 1.
+2022-05-16 16:08:40.956 2485-2485/com.example.myapplication I/RenderThread: type=1400 audit(0.0:12): avc: denied { write } for name="property_service" dev="tmpfs" ino=10389 scontext=u:r:untrusted_app:s0:c101,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1 app=com.example.myapplication
+2022-05-16 16:08:40.956 2485-2485/com.example.myapplication I/RenderThread: type=1400 audit(0.0:13): avc: denied { connectto } for path="/dev/socket/property_service" scontext=u:r:untrusted_app:s0:c101,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1 app=com.example.myapplication
+2022-05-16 16:08:41.013 2485-2520/com.example.myapplication D/libEGL: loaded /vendor/lib/egl/libEGL_emulation.so
+2022-05-16 16:08:41.014 2485-2520/com.example.myapplication D/libEGL: loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+2022-05-16 16:08:41.015 2485-2520/com.example.myapplication D/libEGL: loaded /vendor/lib/egl/libGLESv2_emulation.so
+2022-05-16 16:08:41.141 2485-2485/com.example.myapplication W/e.myapplicatio: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2022-05-16 16:08:41.142 2485-2485/com.example.myapplication W/e.myapplicatio: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2022-05-16 16:08:41.150 2485-2485/com.example.myapplication W/e.myapplicatio: Accessing hidden method Landroid/content/ContextWrapper;->getDisplay()Landroid/view/Display; (greylist, linking, allowed)
+2022-05-16 16:08:41.287 2485-2518/com.example.myapplication D/: HostConnection::get() New Host Connection established 0xebc7dd70, tid 2518
+2022-05-16 16:08:41.298 2485-2518/com.example.myapplication D/: HostComposition ext GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_1 
+2022-05-16 16:08:41.298 2485-2518/com.example.myapplication W/: Process pipe failed
+2022-05-16 16:08:41.323 2485-2518/com.example.myapplication W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2022-05-16 16:08:41.333 2485-2518/com.example.myapplication D/EGL_emulation: eglCreateContext: 0xebbd28c0: maj 3 min 1 rcv 4
+2022-05-16 16:08:41.361 2485-2518/com.example.myapplication W/Gralloc3: mapper 3.x is not supported
+2022-05-16 16:08:41.362 2485-2518/com.example.myapplication D/: createUnique: call
+2022-05-16 16:08:41.362 2485-2518/com.example.myapplication D/: HostConnection::get() New Host Connection established 0xebc7f490, tid 2518
+2022-05-16 16:08:41.364 2485-2518/com.example.myapplication D/: HostComposition ext GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_1 
+2022-05-16 16:08:41.364 2485-2518/com.example.myapplication E/eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
